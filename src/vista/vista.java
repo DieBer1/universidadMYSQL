@@ -145,7 +145,10 @@ public class vista extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void guardarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_guardarActionPerformed
-        
+        String codigo = docCodigo.getText();
+        String nombre = docNombre.getText();
+        String apellido = docApellido.getText();
+        String direccion = docDireccion.getText();
     }//GEN-LAST:event_guardarActionPerformed
 
     /**
